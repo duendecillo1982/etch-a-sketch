@@ -1,0 +1,30 @@
+.gridContainer {
+    margin: auto;
+    height: 700px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.square {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.darker {
+    background-color: cornflowerblue;
+}
+
+.title {
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+}
+
+.size {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
